@@ -1,34 +1,7 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-dsc00156",
-      "name": "DSC00156",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 928,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "1-img_0118",
+      "id": "0-img_0118",
       "name": "IMG_0118",
       "levels": [
         {
@@ -55,73 +28,24 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "2-img_0119",
-      "name": "IMG_0119",
-      "levels": [
+      "linkHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "yaw": 0.462586202363088,
+          "pitch": 0.42157457830116485,
+          "rotation": 0.7853981633974483,
+          "target": "1-img_0122"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
+          "yaw": 1.9180130383487901,
+          "pitch": 0.29846368546765767,
+          "rotation": 7.0685834705770345,
+          "target": "5-img_0135"
         }
       ],
-      "faceSize": 1952,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "3-img_0121",
-      "name": "IMG_0121",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1926,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "4-img_0122",
+      "id": "1-img_0122",
       "name": "IMG_0122",
       "levels": [
         {
@@ -148,73 +72,24 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "5-img_0125",
-      "name": "IMG_0125",
-      "levels": [
+      "linkHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "yaw": 1.3853467422343329,
+          "pitch": 0.11092253374943795,
+          "rotation": 5.497787143782138,
+          "target": "6-dsc00152"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
+          "yaw": 1.8449062774798177,
+          "pitch": -0.0784203029098336,
+          "rotation": 4.71238898038469,
+          "target": "2-img_0129"
         }
       ],
-      "faceSize": 1894,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "6-img_0127",
-      "name": "IMG_0127",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
-        }
-      ],
-      "faceSize": 1894,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "7-img_0129",
+      "id": "2-img_0129",
       "name": "IMG_0129",
       "levels": [
         {
@@ -241,42 +116,18 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "8-img_0132",
-      "name": "IMG_0132",
-      "levels": [
+      "linkHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        },
-        {
-          "tileSize": 512,
-          "size": 2048
+          "yaw": -1.852746166493331,
+          "pitch": 0.16025537744451057,
+          "rotation": 4.71238898038469,
+          "target": "1-img_0122"
         }
       ],
-      "faceSize": 1894,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "9-img_0133",
+      "id": "3-img_0133",
       "name": "IMG_0133",
       "levels": [
         {
@@ -303,11 +154,24 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 0.0005648312489530127,
+          "pitch": 0.468127973565311,
+          "rotation": 1.5707963267948966,
+          "target": "5-img_0135"
+        },
+        {
+          "yaw": -0.6021161604246359,
+          "pitch": 0.11672696728893861,
+          "rotation": 10.210176124166829,
+          "target": "4-img_0134"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "10-img_0134",
+      "id": "4-img_0134",
       "name": "IMG_0134",
       "levels": [
         {
@@ -334,11 +198,18 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
+      "linkHotspots": [
+        {
+          "yaw": 2.822261801033056,
+          "pitch": 0.33680246138722936,
+          "rotation": 7.853981633974483,
+          "target": "5-img_0135"
+        }
+      ],
       "infoHotspots": []
     },
     {
-      "id": "11-img_0135",
+      "id": "5-img_0135",
       "name": "IMG_0135",
       "levels": [
         {
@@ -365,174 +236,25 @@ var APP_DATA = {
         "yaw": 0,
         "fov": 1.5707963267948966
       },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "12-dsc00149",
-      "name": "DSC00149",
-      "levels": [
+      "linkHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
+          "yaw": -2.332571770351638,
+          "pitch": 0.4367198476160681,
+          "rotation": 3.9269908169872414,
+          "target": "4-img_0134"
         },
         {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
+          "yaw": 0.4132143776292878,
+          "pitch": 0.42116848751196656,
+          "rotation": 1.5707963267948966,
+          "target": "3-img_0133"
         }
       ],
-      "faceSize": 928,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
       "infoHotspots": []
     },
     {
-      "id": "13-dsc00150",
-      "name": "DSC00150",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 928,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "14-dsc00151",
-      "name": "DSC00151",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 928,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "15-dsc00152",
+      "id": "6-dsc00152",
       "name": "DSC00152",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 928,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "16-dsc00153",
-      "name": "DSC00153",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 928,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "17-dsc00154",
-      "name": "DSC00154",
-      "levels": [
-        {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
-        }
-      ],
-      "faceSize": 928,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
-    },
-    {
-      "id": "18-dsc00155",
-      "name": "DSC00155",
       "levels": [
         {
           "tileSize": 256,
@@ -562,7 +284,7 @@ var APP_DATA = {
   "settings": {
     "mouseViewMode": "drag",
     "autorotateEnabled": true,
-    "fullscreenButton": false,
-    "viewControlButtons": false
+    "fullscreenButton": true,
+    "viewControlButtons": true
   }
 };
