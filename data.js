@@ -1,8 +1,8 @@
 var APP_DATA = {
   "scenes": [
     {
-      "id": "0-img_0118",
-      "name": "IMG_0118",
+      "id": "0-welcome",
+      "name": "welcome",
       "levels": [
         {
           "tileSize": 256,
@@ -24,8 +24,8 @@ var APP_DATA = {
       ],
       "faceSize": 1964,
       "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
+        "yaw": 0.5825208654057832,
+        "pitch": 0.032442493424243324,
         "fov": 1.5707963267948966
       },
       "linkHotspots": [
@@ -33,20 +33,27 @@ var APP_DATA = {
           "yaw": 0.462586202363088,
           "pitch": 0.42157457830116485,
           "rotation": 0.7853981633974483,
-          "target": "1-img_0122"
+          "target": "1-pantry"
         },
         {
           "yaw": 1.9180130383487901,
           "pitch": 0.29846368546765767,
           "rotation": 7.0685834705770345,
-          "target": "5-img_0135"
+          "target": "5-pantry-104"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 0.32342752876678205,
+          "pitch": 0.09831128983100257,
+          "title": "Welcome",
+          "text": "info-feature"
+        }
+      ]
     },
     {
-      "id": "1-img_0122",
-      "name": "IMG_0122",
+      "id": "1-pantry",
+      "name": "pantry",
       "levels": [
         {
           "tileSize": 256,
@@ -74,23 +81,24 @@ var APP_DATA = {
       },
       "linkHotspots": [
         {
-          "yaw": 1.3853467422343329,
-          "pitch": 0.11092253374943795,
-          "rotation": 5.497787143782138,
-          "target": "6-dsc00152"
-        },
-        {
           "yaw": 1.8449062774798177,
           "pitch": -0.0784203029098336,
           "rotation": 4.71238898038469,
-          "target": "2-img_0129"
+          "target": "2-pantry"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 1.2975781876765886,
+          "pitch": 0.18839404303751905,
+          "title": "Welcome",
+          "text": "info-feature"
+        }
+      ]
     },
     {
-      "id": "2-img_0129",
-      "name": "IMG_0129",
+      "id": "2-pantry",
+      "name": "pantry",
       "levels": [
         {
           "tileSize": 256,
@@ -121,14 +129,14 @@ var APP_DATA = {
           "yaw": -1.852746166493331,
           "pitch": 0.16025537744451057,
           "rotation": 4.71238898038469,
-          "target": "1-img_0122"
+          "target": "1-pantry"
         }
       ],
       "infoHotspots": []
     },
     {
-      "id": "3-img_0133",
-      "name": "IMG_0133",
+      "id": "3-pantry-104",
+      "name": "pantry 104",
       "levels": [
         {
           "tileSize": 256,
@@ -159,20 +167,27 @@ var APP_DATA = {
           "yaw": 0.0005648312489530127,
           "pitch": 0.468127973565311,
           "rotation": 1.5707963267948966,
-          "target": "5-img_0135"
+          "target": "5-pantry-104"
         },
         {
           "yaw": -0.6021161604246359,
           "pitch": 0.11672696728893861,
           "rotation": 10.210176124166829,
-          "target": "4-img_0134"
+          "target": "4-pantry-104"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": -1.639972670626765,
+          "pitch": 0.11708895773384675,
+          "title": "Welcome",
+          "text": "Have a nice day!"
+        }
+      ]
     },
     {
-      "id": "4-img_0134",
-      "name": "IMG_0134",
+      "id": "4-pantry-104",
+      "name": "pantry 104",
       "levels": [
         {
           "tileSize": 256,
@@ -203,14 +218,21 @@ var APP_DATA = {
           "yaw": 2.822261801033056,
           "pitch": 0.33680246138722936,
           "rotation": 7.853981633974483,
-          "target": "5-img_0135"
+          "target": "5-pantry-104"
         }
       ],
-      "infoHotspots": []
+      "infoHotspots": [
+        {
+          "yaw": 1.8541471517297898,
+          "pitch": -0.07762860891513057,
+          "title": "Have a nice day",
+          "text": "How can I help you?"
+        }
+      ]
     },
     {
-      "id": "5-img_0135",
-      "name": "IMG_0135",
+      "id": "5-pantry-104",
+      "name": "pantry 104",
       "levels": [
         {
           "tileSize": 256,
@@ -241,43 +263,23 @@ var APP_DATA = {
           "yaw": -2.332571770351638,
           "pitch": 0.4367198476160681,
           "rotation": 3.9269908169872414,
-          "target": "4-img_0134"
+          "target": "4-pantry-104"
         },
         {
           "yaw": 0.4132143776292878,
           "pitch": 0.42116848751196656,
           "rotation": 1.5707963267948966,
-          "target": "3-img_0133"
+          "target": "3-pantry-104"
         }
       ],
-      "infoHotspots": []
-    },
-    {
-      "id": "6-dsc00152",
-      "name": "DSC00152",
-      "levels": [
+      "infoHotspots": [
         {
-          "tileSize": 256,
-          "size": 256,
-          "fallbackOnly": true
-        },
-        {
-          "tileSize": 512,
-          "size": 512
-        },
-        {
-          "tileSize": 512,
-          "size": 1024
+          "yaw": -1.1222451923142032,
+          "pitch": -0.045223219861650676,
+          "title": "Welcome",
+          "text": "features"
         }
-      ],
-      "faceSize": 928,
-      "initialViewParameters": {
-        "pitch": 0,
-        "yaw": 0,
-        "fov": 1.5707963267948966
-      },
-      "linkHotspots": [],
-      "infoHotspots": []
+      ]
     }
   ],
   "name": "Project Title",
