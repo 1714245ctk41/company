@@ -33,7 +33,7 @@ var APP_DATA = {
           "yaw": 0.462586202363088,
           "pitch": 0.42157457830116485,
           "rotation": 0.7853981633974483,
-          "target": "1-pantry"
+          "target": "1-amazon"
         },
         {
           "yaw": 1.9180130383487901,
@@ -52,8 +52,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "1-pantry",
-      "name": "pantry",
+      "id": "1-amazon",
+      "name": "amazon",
       "levels": [
         {
           "tileSize": 256,
@@ -84,7 +84,7 @@ var APP_DATA = {
           "yaw": 1.8449062774798177,
           "pitch": -0.0784203029098336,
           "rotation": 4.71238898038469,
-          "target": "2-pantry"
+          "target": "2-amazon"
         }
       ],
       "infoHotspots": [
@@ -97,8 +97,8 @@ var APP_DATA = {
       ]
     },
     {
-      "id": "2-pantry",
-      "name": "pantry",
+      "id": "2-amazon",
+      "name": "amazon",
       "levels": [
         {
           "tileSize": 256,
@@ -129,7 +129,7 @@ var APP_DATA = {
           "yaw": -1.852746166493331,
           "pitch": 0.16025537744451057,
           "rotation": 4.71238898038469,
-          "target": "1-pantry"
+          "target": "1-amazon"
         }
       ],
       "infoHotspots": []
